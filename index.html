@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stopwatch</title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Leckerli+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Stopwatch</h1>
+<div class="stopwatch">
+  <div id="display">00:00:00.000</div>
+</div>
+<div class="buttons">
+    <button class="btn btn-primary" onclick="startStopwatch()">Start</button>
+    <button class="btn btn-danger" onclick="pauseStopwatch()">Pause</button>
+    <button class="btn btn-secondry" onclick="resetStopwatch()">Reset</button>
+    <button class="btn btn-third" onclick="lapTime()">Lap</button>
+</div>
+<div id="lapRecords" class="lap-records"></div>
+<script src="app.js"></script>
+</body>
+</html>

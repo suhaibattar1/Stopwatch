@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+  }
+  
+  .stopwatch {
+    margin: 50px auto;
+    width: 260px;
+    border-style: double;
+    border-width: 36px;
+    border-radius: 50%;
+    color: white;
+    border-color: white;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 16px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #9195F6;
+    color: #fff;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+  }
+  
+  .btn-secondry {
+    background-color: #007F73;
+    color: #fff;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+  }
+  .btn-third {
+    background-color:#265073;
+    color: #fff;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+  }
+  h1{
+    text-align: center;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:goldenrod !important;
+
+  }
+  #display{
+    height: 150px;
+    padding-top: 120px;
+    font-size: 2rem;
+  }
+  .btn-primary:hover{
+    background-color:aqua ;
+  }
+  
+  .btn-secondry:hover{
+    background-color:chartreuse;
+  }
+  
+  .btn-third:hover{
+    background-color:deeppink;
+  }
+  .btn-danger:hover{
+    background-color:orchid ;
+  }
+  
+  .lap-records {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 260px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
